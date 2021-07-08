@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Site</title>
+<link rel="stylesheet" type="text/css" href="style hover.css">
+<link rel="stylesheet" type="text/css" href="font.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	@font-face
+{
+  src: url(fonts/CaviarDreams_0.ttf);
+  font-family: caviar dreams;
+  src: url(fonts/ArtySignature.otf);
+  font-family: Arty Signature;
+}
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 0px 30px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #962F2F;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #962F2F;}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 , .bgimg-4, .bgimg-5, .bgimg-6{
+  position: relative;
+  opacity: 100;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img/back.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img/landspaces/1.jpg");
+  min-height: 100%;
+}
+.bgimg-3 {
+  background-image: url("img/landspaces/2.jpg");
+  min-height: 100%;
+}
+.bgimg-4 {
+  background-image: url("img/landspaces/3.jpg");
+  min-height: 100%;
+}
+.bgimg-5 {
+  background-image: url("img/landspaces/4.jpg");
+  min-height: 100%;
+}
+.bgimg-6 {
+  background-image: url("img/landspaces/5.jpg");
+  min-height: 100%;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #303030;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, {
+    background-attachment: scroll;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #161616; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1f1; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #161616;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  }
+
+  .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  }
+  .fa-instagram {
+  background: #125688;
+  color: white;
+  }
+   .fa-youtube{
+  background: #125688;
+  color: white;
+</style>
+</head>
+<body bgcolor="161616">
+  <table border="0" width="100%">
+<tr>
+  </br>
+  <td width="8%" valign="top"><a href="index.html"><img src="img/logo1.png" width="250"></a></td>
+    <td></td>
+      <td width="8%"valign="top"rowspan="2"></br><a class="menu-itm" href="index.html" style="text-decoration: none;"><font color="#BDBDBD" style="font-family:Caviar Dreams;font-size: 100%">HOME</font></a>
+        </td>
+        </td>
+        <td width="8%" rowspan="2" valign="top"><div style="height: 50px"></br>
+            <div class="dropdown">
+            <button class="dropbtn"><font style="font-family:Caviar Dreams;font-size: 94%"> PROJECTS</font></button>
+            <div class="dropdown-content"></br>
+            <a href="FASHION.html" class="menu-itm"><font color="#FFFAFA" style="font-family:Caviar Dreams;font-size: 94%">FASHION</font></a></br></br>
+            <a href="GRAPHIC.html" class="menu-itm"><font color="#FFFAFA" style="font-family:Caviar Dreams;font-size: 94%">GRAPHIC</font></a></br></br>
+            <a href="SPORT.html" class="menu-itm"><font color="#FFFAFA" style="font-family:Caviar Dreams;font-size: 94%">SPORT</font></a></br></br>
+            <a href="STREET.html" class="menu-itm"><font color="#FFFAFA" style="font-family:Caviar Dreams;font-size: 94%">STREET</font></a></br></br>
+            <a href="LANDSPACES.html" class="menu-itm"><font color="#FFFAFA" style="font-family:Caviar Dreams;font-size: 94%">LANDSPACES</font></a></br></br>
+                </details></div></div>
+              </td>
+        <td width="8%"valign="top"rowspan="2"></br><a class="menu-itm" href="Contact.html" style="text-decoration: none";><font color="#FFFAFA" style="font-family:Caviar Dreams;font-size: 94%">CONTACT</font></a></br>
+          </td>
+</table>
+
+
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border"><font style="font-family: caviar dreams;font-size: 30px">LANDSPACES</span></font>
+  </div>
+</div>
+
+<div class="bgimg-2">
+ 
+  </div>
+
+<div class="bgimg-3">
+  
+  </div> 
+
+<div class="bgimg-4">
+  
+  </div>
+
+<div class="bgimg-4">
+  </div>
+
+<div class="bgimg-5">
+  </div>
+
+<div class="bgimg-6">
+   <div class="caption">
+  <span class="border"><font style="font-family: caviar dreams;font-size: 30px"><a href="FASHION.html" style="text-decoration: none;color: white"> FASHION</span></font>
+  </div>
+  </div>
+
+<div class="footer">
+ <center>
+  <p><font style="font-family: caviar dreams;font-size: 20px;color: white"> Follow Me In Social Media</p></font>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-google"></a>
+</center>
+</div>
+
+
+
+
+</body>
+</html>

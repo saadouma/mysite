@@ -1,0 +1,15 @@
+
+.menu-itm{
+	display: inline-block;
+	padding: 5px 20px;
+	height: 10px;
+	line-height: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+.menu-itm:hover{
+	background-color: #962F2F;
+}
+
+
+
